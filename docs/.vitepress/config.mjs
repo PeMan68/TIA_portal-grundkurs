@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/TIA_portal-grundkurs/', // Måste matcha repo-namnet exakt (case sensitive)
   title: 'TIA Portal Grundkurs',
   description: 'Grundkurs i Siemens TIA Portal v18',
   lang: 'sv-SE',
