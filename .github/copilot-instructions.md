@@ -1,43 +1,112 @@
-# Copilot Agent Instructions for TIA Portal Training Web App
+# TIA Portal Grundkurs - Copilot Instructions
 
-## Overview
-This project is a web application for educational purposes, based on the course structure in "Grundkurs TIA Portal v18 – Översikt". The app will guide users through the fundamentals of Siemens TIA Portal, S7-1200 PLC, HMI, and frequency inverters.
+## Project Overview
+Educational web app for learning Siemens TIA Portal v18, built with VitePress. Content is structured according to "Grundkurs TIA Portal v18 – Översikt.md" covering S7-1200 PLC, HMI, and frequency inverters.
 
-## Agent Roles
+## Project Structure
+```
+docs/                           # VitePress documentation root
+├── .vitepress/config.mjs      # Swedish UI, responsive theme
+├── index.md                   # Hero landing page
+├── oversikt.md                # Course overview
+├── 01-introduktion/           # 10 chapters with 2-3 sections each
+├── 02-projektstruktur/
+└── ... (10 chapters total)
+```
 
-### 1. Research Agent
-- Search for and collect relevant, high-quality information for each course section.
-- Find and verify links to videos, tutorials, and official documentation (preferably in Swedish, but English is acceptable).
-- Summarize and adapt content to match the course outline.
-- Always cite sources and provide direct links.
-- If information is unclear or missing, ask for clarification before proceeding.
+## Tech Stack
+- **VitePress 1.0** - Static site generator
+- **Markdown** - All content in `.md` files
+- **Swedish UI** - All navigation and labels in Swedish
+- **Responsive** - Mobile and desktop optimized
 
-### 2. Content Generation Agent
-- Create concise, pedagogical texts for each course section, based on research findings and the course outline.
-- Structure content with clear headings, bullet points, and examples.
-- Integrate links to videos and external resources where appropriate.
-- Ensure all content is original or properly attributed.
-- Ask for feedback if unsure about the level of detail or pedagogical approach.
+## Development Commands
+```bash
+npm run docs:dev      # Start dev server (localhost:5173)
+npm run docs:build    # Build for production
+npm run docs:preview  # Preview production build
+```
 
-### 3. Web App Development Agent
-- Build a modern, user-friendly web app to present the course content.
-- Organize the app according to the course structure (one section per topic in the overview).
-- Use a modular/component-based approach (e.g., React, Vue, or similar).
-- Support embedding of videos and external links.
-- Enable easy updates and additions to course content.
-- Ask for clarification if any requirements or design choices are unclear.
+## Role-Based Workflows
+
+### When doing research for course content:
+1. Search for Swedish resources first, English as fallback
+2. Prioritize official Siemens documentation and videos
+3. Add findings directly to the relevant `.md` file in `docs/`
+4. Use markdown format: headings, bullet points, code blocks
+5. Include direct links with descriptive text: `[Siemens TIA Portal Manual](url)`
+6. Cite all sources clearly
+
+**Example:**
+```markdown
+## Vad är TIA Portal?
+
+TIA Portal (Totally Integrated Automation) är Siemens...
+
+### Resurser
+- [Officiell Siemens dokumentation](https://support.industry.siemens.com)
+- [Video: TIA Portal Introduction](https://youtube.com/...)
+```
+
+### When creating/editing course content:
+1. Write in Swedish, pedagogical style
+2. Structure: clear headings (##, ###), bullet points, examples
+3. Replace `::: warning OBS` placeholders with real content
+4. Each section should have:
+   - Concept explanation
+   - Practical examples or use cases
+   - Links to videos/documentation
+   - (Optional) Code snippets in appropriate syntax blocks
+5. Keep sections concise (200-500 words typically)
+6. Ask for feedback if scope/depth is unclear
+
+**Content Pattern:**
+```markdown
+# Topic Title
+
+Brief intro paragraph explaining the concept.
+
+## Main Points
+- Point 1 with explanation
+- Point 2 with explanation
+
+## Practical Example
+Step-by-step or code example here.
+
+## Resources
+- [Video Tutorial](url)
+- [Official Docs](url)
+```
+
+### When modifying the web app structure:
+1. VitePress config is in `docs/.vitepress/config.mjs`
+2. All UI text must be in Swedish
+3. Sidebar structure mirrors course chapters - update sidebar array if adding/removing sections
+4. For new chapters: create folder `docs/XX-name/`, add markdown files, update config sidebar
+5. Theme is responsive by default - test on both desktop and mobile viewport
+6. Search is configured for Swedish - keep `translations` in config accurate
+
+**Adding a new section:**
+1. Create `docs/0X-chapter/new-section.md`
+2. Add to sidebar in config.mjs:
+```js
+{
+  text: 'X. Chapter Name',
+  items: [
+    { text: 'New Section', link: '/0X-chapter/new-section' }
+  ]
+}
+```
 
 ## General Guidelines
-- Follow the course outline strictly for structure and content scope.
-- Prioritize clarity, accessibility, and educational value.
-- Document any project-specific conventions or workflows in this file as the project evolves.
-- Always ask for clarification if any instruction or requirement is ambiguous.
+- Follow `Grundkurs TIA Portal v18 – Översikt.md` for structure
+- All content in Swedish
+- Prioritize clarity and pedagogical value
+- Always ask for clarification if requirements are ambiguous
+- Keep content accessible for beginners while being technically accurate
 
-## Example Key Files
-- Grundkurs TIA Portal v18 – Översikt.md (course structure)
-- /src/components/ (web app modules)
-- /content/ (generated course texts and resources)
-
----
-
-Update these instructions as the project grows or if new agent roles are needed.
+## Deployment Notes
+- Local dev: `npm run docs:dev`
+- For GitHub Pages: update `base` in config.mjs to repo name
+- All links are relative (portable between local and deployed)
+- No hardcoded localhost URLs
