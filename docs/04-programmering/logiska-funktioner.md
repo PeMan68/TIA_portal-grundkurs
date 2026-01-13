@@ -103,14 +103,14 @@ Output := Input_A XOR Input_B;
 
 **Praktiskt exempel:** Larm när endast EN av två sensorer detekterar produkt (felaktig detektion).
 
-## Selvhållning (Latching)
+## Självhållning (Latching)
 
-Selvhållning gör att en utgång behåller sitt tillstånd tills den explicit nollställs.
+Självhållning gör att en utgång behåller sitt tillstånd tills den explicit nollställs.
 
-### LAD med selvhållning
+### LAD med självhållning
 
 ```plaintext
-Network 1: Start/Stop med selvhållning
+Network 1: Start/Stop med självhållning
           Start_Button     Motor_Running      Stop_Button
 ---| |-------------||-----------| / |--------( Motor_Running )---
 ```
@@ -120,7 +120,7 @@ Network 1: Start/Stop med selvhållning
 2. Motor_Running håller sig själv aktiv via parallellkoppling
 3. Stop_Button bryter kretsen (nollställer Motor_Running)
 
-### SCL med selvhållning
+### SCL med självhållning
 
 ```scl
 // Start-logik
@@ -354,7 +354,7 @@ Kombinera flera logiska funktioner:
 "Start_Edge"(CLK := Start_Button);
 "Stop_Edge"(CLK := Stop_Button);
 
-// Selvhållning med prioritet för stopp
+// Självhållning med prioritet för stopp
 IF "Start_Edge".Q AND NOT Emergency_Stop THEN
     Motor_Enable := TRUE;
 END_IF;

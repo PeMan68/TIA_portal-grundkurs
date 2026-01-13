@@ -53,10 +53,10 @@ Oversatt till logik:
 - Motor startar när Start_Button trycks OCH Stop_Button inte är tryckt
 - Motor_Output aktiveras när Motor_Running = TRUE
 
-### Exempel: Selvhållning (latching)
+### Exempel: Självhållning (latching)
 
 ```plaintext
-Network 1: Motor med selvhållning
+Network 1: Motor med självhållning
           Start_Button        Motor_Running      Stop_Button
 ---| |-------------||--------------| / |--------( Motor_Running )---
          (1)            (2)                (3)
@@ -64,7 +64,7 @@ Network 1: Motor med selvhållning
 
 Logik:
 1. Start_Button aktiverar Motor_Running
-2. Motor_Running håller sig själv aktiv (selvhållning)
+2. Motor_Running håller sig själv aktiv (självhållning)
 3. Stop_Button bryter kretsen
 
 ### Fördelar med LAD
