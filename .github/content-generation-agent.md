@@ -1,4 +1,4 @@
-# Content Generation Agent Instructions
+ # Content Generation Agent Instructions
 
 role: content-generation-agent
 name: Content Generation Agent
