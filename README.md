@@ -60,11 +60,15 @@ TIA-kurs/
 
 ## Arbetsflöde för innehållsskapande
 
+Se [TODO.md](TODO.md) för detaljerad checklista över färdiga och återstående kapitel.
+
+**Aktuell status: 40% färdigt (12 av 29 sektioner)**
+
 1. **Research Agent** söker och samlar information för varje kapitel
 2. **Content Generation Agent** skapar pedagogiskt innehåll baserat på research
 3. **Web App Development Agent** uppdaterar och underhåller webbappens struktur
 
-Se respektive agent-fil för detaljerade instruktioner.
+Se `.github/copilot-instructions.md` för AI-agentinstruktioner.
 
 ## Publicering till GitHub Pages
 
