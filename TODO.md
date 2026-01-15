@@ -132,20 +132,26 @@ TOTALT:     ████████░░░░░░░░░░░░  40% (1
 
 ## 📝 Anteckningar
 
-### Senaste uppdatering: 2026-01-13
+### Senaste uppdatering: 2026-01-15
 
 **Vad som gjorts:**
 - Skapade VitePress-struktur med svensk UI
 - Genererade komplett innehåll för kapitel 1-4
 - Alla sektioner har omfattande text, exempel och länkar
 - Strukturen är konsistent och lätt att följa
+- GitHub Pages är uppsatt och fungerar
+- URL: https://peman68.github.io/TIA_portal-grundkurs/
+
+**Pågående arbete:**
+- Kapitel 5: Taggar och datatyper (påbörjat)
 
 **Nästa prioritet:**
-- Kapitel 5: Taggar och datatyper (central för programmering)
-- Kapitel 6: Kommunikation (viktig för systemintegration)
+- Slutföra kapitel 5-10 med samma kvalitet som 1-4
+- Testa alla länkar och innehåll
+- Bygga och publicera till GitHub Pages
 
 **Tips för framtida arbete:**
-- Använd `multi_replace_string_in_file` för effektivitet
+- Använd `npm run docs:build` innan push till GitHub
 - Följ samma innehållsmönster som kapitel 1-4
 - Testa i browsern efter varje kapitel (localhost:5173)
 - Committa regelbundet till git
