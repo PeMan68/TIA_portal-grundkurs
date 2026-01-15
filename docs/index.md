@@ -1,3 +1,4 @@
+---
 layout: home
 
 hero:
@@ -25,3 +26,4 @@ features:
   - icon: 🔧
     title: Profinet & kommunikation
     details: Lär dig konfigurera och styra frekvensomriktare via nätverk
+---
