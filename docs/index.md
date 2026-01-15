@@ -1,4 +1,3 @@
----
 layout: home
 
 hero:
@@ -26,4 +25,13 @@ features:
   - icon: 🔧
     title: Profinet & kommunikation
     details: Lär dig konfigurera och styra frekvensomriktare via nätverk
----
+  
+# Välkommen till TIA Portal Grundkurs
+
+Den här webbkursen ger dig en komplett och pedagogisk introduktion till Siemens TIA Portal v18. Du lär dig allt från grundläggande projektstruktur till avancerad kommunikation med PLC, HMI och frekvensomriktare.
+
+- **Starta kursen:** [Kursöversikt & innehåll »](./oversikt)
+- **Om kursen:** Allt material är på svenska och anpassat för både nybörjare och yrkesverksamma.
+- **Navigera:** Använd sidomenyn för att gå direkt till valfritt kapitel.
+
+> **Tips:** Spara sidan som favorit för att snabbt komma åt kursen!
