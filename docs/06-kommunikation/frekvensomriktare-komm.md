@@ -374,7 +374,7 @@ END_FOR;
 
 ## Resurser
 
-- [Siemens: G120 Operating Instructions (PDF)](https://support.industry.siemens.com/cs/document/36042711/sinamics-g120-operating-instructions)
+- [Siemens: SINAMICS G120 dokumentation (sökresultat)](https://support.industry.siemens.com/cs/products?search=sinamics%20g120)
 - [Video: G120 Profinet Setup](https://www.youtube.com/watch?v=cN5NvZlGLYc)
 - [Video: PLC to Drive Communication](https://www.youtube.com/watch?v=Vt4TFlA3Pv0)
 - [Startdrive Configuration Tool](https://support.industry.siemens.com/cs/products?search=startdrive) (för avancerad drive-konfiguration)

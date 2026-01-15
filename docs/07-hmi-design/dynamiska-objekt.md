@@ -432,7 +432,7 @@ Pump_Running : BOOL := FALSE;
 
 ## Resurser
 
-- [Siemens: HMI Animations Guide (PDF)](https://support.industry.siemens.com/cs/document/109748123/hmi-animations-guide)
+- [Siemens: WinCC Animation dokumentation (sökresultat)](https://support.industry.siemens.com/cs/products?search=wincc%20animation)
 - [Video: Creating Dynamic HMI Objects](https://www.youtube.com/watch?v=ZP8i3VoS1_w)
 - [Video: Faceplates and Reusable Components](https://www.youtube.com/watch?v=x_dN8cPkYnM)
 - [Video: Process Graphics in WinCC](https://www.youtube.com/watch?v=lKjM8mQ6rY8)

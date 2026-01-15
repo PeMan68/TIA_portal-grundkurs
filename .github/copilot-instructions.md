@@ -55,10 +55,11 @@ TIA Portal (Totally Integrated Automation) är Siemens...
 4. Each section should have:
    - Concept explanation
    - Practical examples or use cases
-   - Links to videos/documentation
+   - Links to videos/documentation (verified as working)
    - (Optional) Code snippets in appropriate syntax blocks
 5. Keep sections concise (200-500 words typically)
 6. Ask for feedback if scope/depth is unclear
+7. **VIKTIGT: Verifiera alla externa länkar innan de läggs till** - använd fetch_webpage för att kontrollera att YouTube-videor och webbsidor är tillgängliga. Lägg aldrig till döda länkar.
 
 **Content Pattern:**
 ```markdown

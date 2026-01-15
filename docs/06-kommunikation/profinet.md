@@ -262,7 +262,7 @@ ET 200SP I/O          192.168.0.30      io-remote-01      Fjärr-I/O
 
 ## Resurser
 
-- [Siemens: Profinet System Description (PDF)](https://support.industry.siemens.com/cs/document/19289930/profinet-system-description)
+- [Siemens: PROFINET dokumentation (sökresultat)](https://support.industry.siemens.com/cs/products?search=profinet%20system%20description)
 - [Video: Profinet Basics and Configuration](https://www.youtube.com/watch?v=lQG8qlnPJY4)
 - [Video: Profinet Topology Options](https://www.youtube.com/watch?v=A4eMVuOpNJ0)
 - [Nästa: HMI-kommunikation →](./hmi-kommunikation.md)

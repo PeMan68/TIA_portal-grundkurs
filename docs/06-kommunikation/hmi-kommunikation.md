@@ -359,7 +359,7 @@ Stabilitet: Frekventa connection timeouts
 
 ## Resurser
 
-- [Siemens: HMI Communication Configuration (PDF)](https://support.industry.siemens.com/cs/document/109747927/hmi-communication-configuration)
+- [Siemens: HMI Communication dokumentation (sökresultat)](https://support.industry.siemens.com/cs/products?search=hmi%20communication%20configuration)
 - [Video: Optimizing HMI-PLC Communication](https://www.youtube.com/watch?v=FpZyD6F9PSQ)
 - [Video: HMI Diagnostics and Troubleshooting](https://www.youtube.com/watch?v=xT8v4WlM3bU)
 - [Nästa: Frekvensomriktare-kommunikation →](./frekvensomriktare-komm.md)
