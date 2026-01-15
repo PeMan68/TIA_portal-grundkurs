@@ -286,6 +286,6 @@ HMI: Motor_Speed (Int)
 
 ---
 **Relaterat:**
-- [HMI-design och skärmar](../07-hmi/skarmar.md)
+- [HMI-design och skärmar](../07-hmi-design/skarmbilder.md)
 - [Globala vs lokala taggar](./globala-lokala.md)
 - [Konfiguration av HMI](../03-konfiguration/hmi-installningar.md)

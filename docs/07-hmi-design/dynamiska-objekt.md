@@ -436,7 +436,6 @@ Pump_Running : BOOL := FALSE;
 - [Video: Creating Dynamic HMI Objects](https://www.youtube.com/watch?v=ZP8i3VoS1_w)
 - [Video: Faceplates and Reusable Components](https://www.youtube.com/watch?v=x_dN8cPkYnM)
 - [Video: Process Graphics in WinCC](https://www.youtube.com/watch?v=lKjM8mQ6rY8)
-- [Nästa: Frekvensomriktare-parametrar →](../08-frekvensomriktare/parametrar.md)
 
 ---
 **Relaterat:**

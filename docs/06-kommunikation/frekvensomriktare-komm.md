@@ -378,10 +378,8 @@ END_FOR;
 - [Video: G120 Profinet Setup](https://www.youtube.com/watch?v=cN5NvZlGLYc)
 - [Video: PLC to Drive Communication](https://www.youtube.com/watch?v=Vt4TFlA3Pv0)
 - [Startdrive Configuration Tool](https://support.industry.siemens.com/cs/products?search=startdrive) (för avancerad drive-konfiguration)
-- [Nästa: Test och simulering →](../09-test/plcsim.md)
 
 ---
 **Relaterat:**
 - [Profinet-kommunikation](./profinet.md)
-- [Konfiguration av Profinet-enheter](../03-konfiguration/profinet-enheter.md)
-- [Frekvensomriktare-parametrar](../08-frekvens/parametrar.md)
+- [Konfiguration av Profinet-enheter](../03-konfiguration/frekvensomriktare-profinet.md)

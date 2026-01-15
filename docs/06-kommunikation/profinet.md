@@ -269,6 +269,6 @@ ET 200SP I/O          192.168.0.30      io-remote-01      Fjärr-I/O
 
 ---
 **Relaterat:**
-- [Konfiguration av Profinet-enheter](../03-konfiguration/profinet-enheter.md)
+- [Konfiguration av Profinet-enheter](../03-konfiguration/frekvensomriktare-profinet.md)
 - [Frekvensomriktare-kommunikation](./frekvensomriktare-komm.md)
 - [HMI-koppling till PLC](../05-taggar/koppling-plc-hmi.md)

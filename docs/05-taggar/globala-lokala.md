@@ -188,4 +188,4 @@ END_VAR
 **Relaterat:**
 - [Datatyper i TIA Portal](./datatyper.md)
 - [Koppling mellan PLC och HMI](./koppling-plc-hmi.md)
-- [Programmering med FB och FC](../04-programmering/funktionsblock.md)
+- [Programmering med FB och FC](../04-programmering/ob-fb-fc.md)

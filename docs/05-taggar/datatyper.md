@@ -354,5 +354,5 @@ END_IF;
 ---
 **Relaterat:**
 - [Globala vs lokala taggar](./globala-lokala.md)
-- [Programmering i SCL](../04-programmering/sprakval.md)
-- [HMI-design och taggar](../07-hmi/skarmar.md)
+- [Programmering i SCL](../04-programmering/sprak-lad-fbd-scl.md)
+- [HMI-design och taggar](../07-hmi-design/skarmbilder.md)

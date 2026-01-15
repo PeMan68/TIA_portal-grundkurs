@@ -368,4 +368,4 @@ Stabilitet: Frekventa connection timeouts
 **Relaterat:**
 - [Koppling PLC↔HMI](../05-taggar/koppling-plc-hmi.md)
 - [Profinet-kommunikation](./profinet.md)
-- [HMI-design](../07-hmi/skarmar.md)
+- [HMI-design](../07-hmi-design/skarmbilder.md)
