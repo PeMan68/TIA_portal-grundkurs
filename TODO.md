@@ -135,26 +135,31 @@ TOTALT:     ████████░░░░░░░░░░░░  40% (1
 ### Senaste uppdatering: 2026-01-15
 
 **Vad som gjorts:**
-- Skapade VitePress-struktur med svensk UI
-- Genererade komplett innehåll för kapitel 1-4
-- Alla sektioner har omfattande text, exempel och länkar
-- Strukturen är konsistent och lätt att följa
-- GitHub Pages är uppsatt och fungerar
-- URL: https://peman68.github.io/TIA_portal-grundkurs/
+- ✅ Skapade VitePress-struktur med svensk UI
+- ✅ Genererade komplett innehåll för kapitel 1-7 (21 sektioner)
+- ✅ Fixade alla dead links i byggprocessen
+- ✅ Bygget fungerar nu utan fel (exit code 0)
+- ✅ GitHub Pages är uppsatt och fungerar
+- ✅ URL: https://peman68.github.io/TIA_portal-grundkurs/
 
-**Pågående arbete:**
-- Kapitel 5: Taggar och datatyper (påbörjat)
+**Senaste fix:**
+- Korrigerade alla dead links (felaktiga sökvägar)
+- Bygget lyckas nu utan varningar
+- Committat och pushat till GitHub
 
-**Nästa prioritet:**
-- Slutföra kapitel 5-10 med samma kvalitet som 1-4
-- Testa alla länkar och innehåll
-- Bygga och publicera till GitHub Pages
+**Återstår:**
+- Kapitel 8: Frekvensomriktare (3 sektioner) - Placeholder-innehåll finns
+- Kapitel 9: Test och simulering (3 sektioner) - Placeholder-innehåll finns  
+- Kapitel 10: Projekthantering (3 sektioner) - Placeholder-innehåll finns
+- Generera riktigt innehåll för kapitel 8-10
+- Bygga och publicera slutlig version
 
 **Tips för framtida arbete:**
 - Använd `npm run docs:build` innan push till GitHub
-- Följ samma innehållsmönster som kapitel 1-4
+- Kontrollera alltid dead links i build-output
 - Testa i browsern efter varje kapitel (localhost:5173)
 - Committa regelbundet till git
+- dist/-mappen är redan i .gitignore - ignorera ändringar där
 
 ---
 
