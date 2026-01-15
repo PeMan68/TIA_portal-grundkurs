@@ -279,7 +279,7 @@ HMI: Motor_Speed (Int)
 
 ## Resurser
 
-- [Siemens: PLC-HMI Communication (PDF)](https://support.industry.siemens.com/cs/document/109742726/plc-hmi-communication-basics)
+- [Siemens: PLC-HMI Communication dokumentation (sökresultat)](https://support.industry.siemens.com/cs/products?search=plc%20hmi%20communication%20tia%20portal)
 - [Video: Connecting HMI to PLC](https://www.youtube.com/watch?v=n3QbOk7nP3Y)
 - [Video: HMI Tag Management](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 - [Nästa: Profinet-kommunikation →](../06-kommunikation/profinet.md)

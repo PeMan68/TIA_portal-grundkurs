@@ -279,7 +279,7 @@ För kritiska larm, använd blinkande animation.
 
 ## Resurser
 
-- [Siemens: HMI Controls and Indicators Guide (PDF)](https://support.industry.siemens.com/cs/document/109747812/hmi-controls-guide)
+- [Siemens: WinCC Controls dokumentation (sökresultat)](https://support.industry.siemens.com/cs/products?search=wincc%20controls%20buttons%20indicators)
 - [Video: Creating Buttons and Indicators](https://www.youtube.com/watch?v=dKl5Z6kJ9tU)
 - [Video: I/O Fields and Data Entry](https://www.youtube.com/watch?v=Xy-8FcN4p9g)
 - [Nästa: Dynamiska objekt →](./dynamiska-objekt.md)

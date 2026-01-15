@@ -149,9 +149,9 @@ Nätverk: 192.168.0.0/24
 ## Resurser och dokumentation
 
 ### Officiella guider
-- [Adding devices in TIA Portal](https://support.industry.siemens.com/cs/document/109772804) - Siemens guide
+- [Siemens: Adding devices to TIA Portal](https://support.industry.siemens.com/cs/products?search=tia%20portal%20adding%20devices) - Guider
 - [Configuring PROFINET](https://support.industry.siemens.com/cs/document/49948856) - Profinet-konfiguration
-- [HMI Connection to PLC](https://support.industry.siemens.com/cs/document/93703241) - HMI-anslutning
+- [Siemens: HMI-PLC Connection](https://support.industry.siemens.com/cs/products?search=hmi%20connection%20plc) - HMI-anslutning
 
 ### Video-tutorials
 - YouTube: "TIA Portal add devices tutorial"

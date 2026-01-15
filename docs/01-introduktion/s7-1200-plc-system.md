@@ -67,7 +67,7 @@ S7-1200 används i många olika branscher:
 
 ### Officiella dokument
 - [S7-1200 System Manual](https://support.industry.siemens.com/cs/document/36912030/simatic-s7-1200-system-manual?dti=0&lc=en-WW) - Komplett systemdokumentation
-- [S7-1200 Easy Book](https://support.industry.siemens.com/cs/document/109476369/getting-started-with-s7-1200?dti=0&lc=en-WW) - Nybörjarguide
+- [Siemens: S7-1200 Getting Started](https://support.industry.siemens.com/cs/products?search=s7-1200%20getting%20started) - Nybörjarguider
 - [S7-1200 Programming Guideline](https://support.industry.siemens.com/cs/ww/en/view/90885040) - Best practices för programmering
 
 ### Video-tutorials

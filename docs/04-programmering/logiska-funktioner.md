@@ -394,7 +394,7 @@ Maintenance_Due := "Runtime_Counter".Q;
 ### Officiell dokumentation
 - [S7-1200 Instruction List](https://support.industry.siemens.com/cs/document/36932465) - Alla instruktioner
 - [Programming Guideline](https://support.industry.siemens.com/cs/ww/en/view/90885040) - Best practices
-- [Timers and Counters](https://support.industry.siemens.com/cs/document/109476369) - Timer/counter manual
+- [Siemens: Timers och Counters](https://support.industry.siemens.com/cs/products?search=s7-1200%20timers%20counters) - Timer/counter dokumentation
 
 ### Video-tutorials
 - YouTube: "TIA Portal timers tutorial"

@@ -97,7 +97,7 @@ Se nästa avsnitt: [Lägg till enheter](./lagg-till-enheter.md)
 
 ### Officiell dokumentation
 - [TIA Portal: Creating a Project](https://support.industry.siemens.com/cs/document/109772803) - Siemens guide
-- [TIA Portal Getting Started](https://support.industry.siemens.com/cs/document/109476369) - Easy Book
+- [Siemens: TIA Portal Getting Started](https://support.industry.siemens.com/cs/products?search=tia%20portal%20getting%20started) - Nybörjarguider
 
 ### Video-tutorials
 - Sök på YouTube: "TIA Portal create new project tutorial"

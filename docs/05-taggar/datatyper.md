@@ -346,7 +346,7 @@ END_IF;
 
 ## Resurser
 
-- [Siemens: Data Types Overview (PDF)](https://support.industry.siemens.com/cs/document/109742654/data-types-in-tia-portal)
+- [Siemens: Data Types dokumentation (sökresultat)](https://support.industry.siemens.com/cs/products?search=tia%20portal%20data%20types)
 - [Video: Working with Data Blocks](https://www.youtube.com/watch?v=Hk7X3dLPV1k)
 - [Video: Arrays and Structures in SCL](https://www.youtube.com/watch?v=8FH4d7pJTQc)
 - [Nästa: Koppling PLC↔HMI →](./koppling-plc-hmi.md)

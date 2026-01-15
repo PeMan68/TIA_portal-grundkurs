@@ -258,7 +258,7 @@ För att automatiskt backupa HMI-projekt:
 
 ### Officiell dokumentation
 - [WinCC Comfort/Advanced System Manual](https://support.industry.siemens.com/cs/document/108716692) - Komplett manual
-- [HMI Connection to S7-1200](https://support.industry.siemens.com/cs/document/93703241) - Anslutningsguide
+- [Siemens: HMI-PLC Connection](https://support.industry.siemens.com/cs/products?search=hmi%20connection%20s7-1200) - Anslutningsguider
 
 ### Video-tutorials
 - YouTube: "TIA Portal HMI configuration"

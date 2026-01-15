@@ -297,7 +297,7 @@ För projekt med olika paneler (ex: KTP700 + TP1200):
 
 ## Resurser
 
-- [Siemens: WinCC HMI Design Guide (PDF)](https://support.industry.siemens.com/cs/document/109742856/hmi-design-best-practices)
+- [Siemens: WinCC HMI Design dokumentation (sökresultat)](https://support.industry.siemens.com/cs/products?search=wincc%20hmi%20design%20best%20practices)
 - [Video: Creating HMI Screens in TIA Portal](https://www.youtube.com/watch?v=qZuWhPk1yQo)
 - [Video: HMI Navigation and Popups](https://www.youtube.com/watch?v=3DtZ8n-7ycA)
 - [Nästa: Knappar och indikatorer →](./knappar-indikatorer.md)
